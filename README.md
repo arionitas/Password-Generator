@@ -50,6 +50,8 @@ Password Generator using HTML, CSS AND JS
 
 ## Deployed Project Link
 
+https://arionitas.github.io/Password-Generator/
+
 
 ## Usage 
 
