@@ -13,8 +13,9 @@ body,
 }
 
 body {
-  background-image: url('/assets/AdobeStock_87198884-1024x733.jpeg');
+  background-image: url("space.jpeg");
 }
+
 
 body {
   font-family: sans-serif;
@@ -39,8 +40,8 @@ header {
   /*background-color: hsl(0, 0%, 100%);*/
   border-radius: 5px;
   border-width: 10px;
-  box-shadow: rgba(255, 7, 7, 0.745) 0px 2px 8px 0px;
-  color: hsl(91, 100%, 50%);
+  box-shadow: rgba(7, 176, 255, 0.745) 0px 2px 8px 0px;
+  color: hsl(206, 100%, 78%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -59,7 +60,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #168bff;
+  background: #ff1616;
   height: 2px;
   
 }
@@ -118,7 +119,7 @@ header {
 
   .btn:hover {
     background-position: right center; /* change the direction of the change here */
-    color: #00ff55;
+    color: #5eebba;
     text-decoration: none;
   }
  
