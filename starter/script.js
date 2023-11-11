@@ -108,6 +108,7 @@ function getPasswordOptions() {
 
   i = 0
   while (i < 1) {
+
 // while loop to include break property in case of non-accepted input
    
 passwordLength = prompt("How many characters-long do you want your password to be?")
