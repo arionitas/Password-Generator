@@ -50,6 +50,8 @@ Password Generator using HTML, CSS AND JS
 
 ## Deployed Project Link
 
+https://arionitas.github.io/Password-Generator/
+
 
 ## Usage 
 
@@ -69,9 +71,6 @@ https://shields.io/badges/git-hub
 ### README Generator
 https://rahuldkjain.github.io/gh-profile-readme-generator/
 
-## License
-
-CC0-1.0 license
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
