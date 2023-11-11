@@ -13,7 +13,9 @@ body,
 }
 
 body {
-  background-image: url("space.jpeg");
+  background-image: url("space2.png");
+  max-width: 100%;
+  background-repeat: no-repeat;
 }
 
 
