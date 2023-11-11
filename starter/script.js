@@ -126,6 +126,7 @@ if (passwordLength < 20 || passwordLength > 44 || passwordLength % 1 !== 0) {
   upperCaseCharacters = confirm("Do you want include upper-case characters in your password?")
   numberCharacters = confirm("Do you want include numbers in your password?")
   oddCharacters = confirm("Do you want include special characters in your password?")
+
 // Type of characters confirm notifications
 
   if (lowerCaseCharacters === false &&
@@ -135,17 +136,21 @@ if (passwordLength < 20 || passwordLength > 44 || passwordLength % 1 !== 0) {
         alert("You have to choose at least one type of character to make-up the password. Please try again.")
         break;
       };
+
 // Non-accepted conditions for type of characters where it breaks to start again
+
   i++ 
   }
 }
 
 
 // Function for getting a random element from an array
+
 function getRandom(arr) {
   let allArrays = []; //included allArrays locally (instead of globally) so we don't have to reload the page to generate another password
   i = 0
   while (i < 1) {
+
 //randomizes arrays
                      specialCharacters.sort(() => Math.random() - 0.5);
                      randomNumbers = numericCharacters.sort(() => Math.random() - 0.5);
@@ -153,6 +158,7 @@ function getRandom(arr) {
                      upperCasedCharacters.sort(() => Math.random() - 0.5);
 
 // checking user's input if true will utilise the above math.random arrays + brings all arrays together in one array if true
+
 if (lowerCaseCharacters === true) {
   allArrays = allArrays.concat(lowerCasedCharacters);
 }
@@ -170,6 +176,7 @@ if (oddCharacters === true) {
 }
 
 // randomizes the array
+
     randomArray = allArrays.sort(() => Math.random() - 0.5);
 
 //sets array length based on passwordLength input
@@ -182,6 +189,7 @@ i++
 };
 
 // Function to generate password with user input
+
 function generatePassword() {
     let finalPassword = getRandom();
     finalPassword = finalPassword.join("")
@@ -202,6 +210,7 @@ function generateConditions() {
 
   conditionsText = conditions;
 }
+
 // add button for conditions, eliminating the first automatic alert when visiting page
 
 
@@ -211,9 +220,11 @@ function writePassword() {
 
   passwordText.value = password;
 }
+
 // Write password to the #password input
 
 
 conditionsBtn.addEventListener('click', generateConditions);
 generateBtn.addEventListener('click', writePassword);
+
 // Add event listener to generate button
