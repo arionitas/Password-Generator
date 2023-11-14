@@ -113,8 +113,8 @@ function getPasswordOptions() {
    
 passwordLength = prompt("How many characters-long do you want your password to be?")
 
-if (passwordLength < 11 || passwordLength > 24 || passwordLength % 1 !== 0) {
-  alert("You have to choose a number between 11 and 24 to properly secure your spaceship. Please try again.")
+if (passwordLength < 8 || passwordLength > 128 || passwordLength % 1 !== 0) {
+  alert("You have to choose a number between 8 and 128 to properly secure your spaceship. Please try again.")
   break;
 };
 
