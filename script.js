@@ -100,8 +100,6 @@ let randomPassword = []
 
 
 
-alert("THIS BE A SPACE WHERE ASTRONAUTS CHOOSE THEIR PASSWORDS FOR THEIR SPACESHIPS")
-// Welcome alert
 
 // Function to prompt user for password options
 function getPasswordOptions() {
